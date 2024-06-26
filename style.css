@@ -1,7 +1,7 @@
 
       body {
         font-family: 'Arial', sans-serif;
-        background-color: #f6f7f7;
+        background-color: #15ffff;
         color: #050e01;
         max-width: 800px;
         margin: 0 auto;
@@ -13,7 +13,7 @@
       }
 
       button {
-        background-color: #364194;
+        background-color: #00094e;
         color: 454242;
         padding: 10px;
         border: none;
