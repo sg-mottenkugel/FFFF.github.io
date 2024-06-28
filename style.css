@@ -1,11 +1,11 @@
 
       body {
         font-family: 'Arial', sans-serif;
-        background-color: #15ffff;
+        background-color: #00ffff40;
         color: #050e01;
-        max-width: 800px;
+        max-width: 500px;
         margin: 30px;
-        padding: 50px;
+        padding: 10px;
       }
 
       h1 {
@@ -13,12 +13,12 @@
       }
 
       button {
-        background-color: #00094e;
+        background-color: #ffd000;
         color: 454242;
         padding: 10px;
         border: none;
         cursor: pointer;
-        border-radius: 20px;
+        border-radius: 15px;
       }
 
       img {
