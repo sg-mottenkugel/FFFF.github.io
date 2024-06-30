@@ -1,7 +1,29 @@
 <html lang="de">
 
 <head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Hover Effekt</title>
   <style>
+    
+    button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #333;
+      color: white;
+      margin: 10px;
+    }
+
+   
+    button:hover {
+      background-color: rgb(195, 125, 209);
+    }
+  
+  
     /* Hintergrundfarbe des Navigationsmenüs */
     nav {
       background-color: #00ffe52c;
@@ -73,8 +95,16 @@
       </p>
     </div>
     <script>
-      var Nachricht = "Bitte akzeptieren sie die Cookies🍪"; alert(Nachricht)  
+      var Nachricht = "Bitte akzeptieren sie die Cookies🍪"; alert(Nachricht)
+
+        < script >
+    var homeButton = document.getElementById('home-button');
+      if (window.location.pathname === "/") {
+        homeButton.innerText = "Sie sind hier: Startseite";
+      }
+    </script>
+
     </script>
 </body>
 
-</html> 
+</html>
