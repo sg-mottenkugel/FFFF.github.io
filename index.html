@@ -1,80 +1,77 @@
+<!DOCTYPE html>
 <html lang="de">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FFFF</title>
+  <link rel="stylesheet" href="style.css">
   <style>
     /* Hintergrundfarbe des Navigationsmenüs */
     nav {
       background-color: #00ffe52c;
-      /* Dunkles Grau */
     }
 
     /* Stil der Links im Navigationsmenü */
     nav ul {
       list-style-type: none;
-      /* Entfernt Aufzählungszeichen */
       margin: 0;
       padding: 0;
       overflow: hidden;
-      /* Verhindert, dass das Menü den Container überlappt */
     }
 
     nav ul li {
       float: left;
-      /* Macht die Liste horizontal */
     }
 
     nav ul li a {
       display: block;
       color: white;
-      /* Textfarbe der Links */
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      /* Entfernt die Unterstreichung */
     }
 
     /* Farbe der Links beim Hovern */
     nav ul li a:hover {
       background-color: #111;
-      /* Noch dunkleres Grau */
     }
   </style>
-  <div class="nav">
-    <button class="button2">
-      Home
-    </button>
-    <button class="button3">
-
-      Bestellen
-    </button>
-  </div>
-
-
-
-
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FFFF</title>
-  <link rel="stylesheet" href="style.css" </style>
 </head>
 
 <body>
-  <h1>Willkommen auf der Website von FFFF: Ferdis-Fantastischer-Foto-Ferlei</h1>
+  <nav>
+    <ul>
+      <li><a href="#" id="home-link">Startseite</a></li>
+      <li><a href="#">Bestellen</a></li>
+    </ul>
+  </nav>
+
+  <h1>Willkommen auf der Website von FFFF: Ferdis-Fantastischer-Foto-Verleih</h1>
   <button onclick="alert('Unter dir!!!')">Fotos</button>
-  <button2 onclick="alert('Bist doch schon im Home!!!🙄')" </button>
-    <img src="Bilder/foto.jpg" alt="Bild">
-    <div class=" hi">
-      <p>Weil der Style in der heutigen Gesellschaft auch im eigenen Heim immer wichtiger wird, wissen viele einfach
-        nicht
-        mehr, was sie sich an die Wand hängen sollen. Dieser Verleih leiht jedem beliebige, aber wunderbare ,
-        handgeschossene Bilder.
-        <a href="Hades140.github.io">Schaut doch mal bei dieser wunderbaren Tiernews-Website vorbei!!!</a>
-      </p>
-    </div>
-    <script>
-      var Nachricht = "Bitte akzeptieren sie die Cookies🍪"; alert(Nachricht)  
-    </script>
+
+  <img src="Bilder/foto.jpg" alt="Bild">
+
+  <div class="hi">
+    <p>Weil der Stil in der heutigen Gesellschaft auch im eigenen Heim immer wichtiger wird, wissen viele einfach nicht
+      mehr, was sie sich an die Wand hängen sollen. Dieser Verleih leiht jedem beliebige, aber wunderbare,
+      handgeschossene Bilder.
+      <a href="https://Hades140.github.io" target="_blank">Schaut doch mal bei dieser wunderbaren Tiernews-Website
+        vorbei!!!</a>
+    </p>
+  </div>
+
+  <script>
+    var nachricht = "Bitte akzeptieren Sie die Cookies🍪";
+    alert(nachricht);
+
+    // Überprüfen, ob wir auf der Startseite sind, und den Text des Home-Links ändern
+    var homeLink = document.getElementById('home-link');
+    if (window.location.pathname === "/") {
+      homeLink.innerText = "Sie sind hier: Startseite";
+      homeLink.style.backgroundColor = "#111"; // Optional: Hintergrundfarbe ändern
+    }
+  </script>
 </body>
 
 </html>
