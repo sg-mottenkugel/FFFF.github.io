@@ -37,56 +37,19 @@
 
 
       }
-      button {
-        display: inline-block;
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        border: none;
-        background-color: #333;
-        color: white;
-        margin: 10px;
-      }
+   
   
   
       button:hover {
-        background-color: rgb(153, 0, 0);
+        background-color: #ff6868
       }
   
   
      
       nav {
-        background-color: #00ffe52c;
+        background-color: hsl(268, 100%, 73%), 100%, 73%);
         
       }
   
-      
-      nav ul {
-        list-style-type: none;
-      
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-     
-      }
-  
-      nav ul li {
-        float: left;
-        
-      }
-  
-      nav ul li a {
-        display: block;
-        color: white;
-      
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    
-      }
   
   
-      nav ul li a:hover {
-        background-color: #800000;
-        
-      }
