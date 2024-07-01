@@ -4,8 +4,8 @@
         background-color: #5B6057
         color: #050e01;
         max-width: 100000000000px;
-        margin: 0px;
-        padding: 10px;
+        margin: -10px;
+        padding: 0px;
         font-size: 20px; 
       }
 
@@ -49,6 +49,7 @@
      
       nav {
         background-color: #6E9075
+        height="100px"
         
       }
   
