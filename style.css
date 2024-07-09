@@ -39,15 +39,20 @@ img {
 
 
 
-button:hover {
+.button:hover {
   background-color: #5572f5;
 }
 
 
 
-navi {
+.navi {
   background-color: #0718af6e;
   height: 150px;
   text-align:  center;
   color: #008ea7
+}
+.verlink.html.{
+background-color: #6E9075;
+
+
 }
