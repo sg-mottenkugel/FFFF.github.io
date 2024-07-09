@@ -5,6 +5,8 @@ body {
   margin: 5px;
   padding: 5px;
   font-size: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease; 
 }
 
 h1 {
@@ -47,11 +49,9 @@ img {
 }
 
 .home2 {
-  background-color: #bda4dd;
-  color: 454242;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  border-radius: 135px;
-  
-}
+  background-color: #6E9075; 
+  padding: 5px;
+  font-size: 20px;
+  margin: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease; 
