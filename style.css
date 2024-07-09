@@ -52,3 +52,12 @@ img {
   color: #008ea7
 }
 
+.home2:hover {
+  background-color: #bda4dd;
+  color: 454242;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 135px;
+  
+}
