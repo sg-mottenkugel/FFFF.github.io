@@ -5,15 +5,15 @@ body {
   margin: 5px;
   padding: 5px;
   font-size: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  transition: background-color 0.3s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
 }
 
 h1 {
   color: #202864;
 }
 
-button {
+.button {
   background-color: #bda4dd;
   color: 454242;
   padding: 10px;
@@ -44,15 +44,6 @@ img {
 .navi {
   background-color: #0718af6e;
   height: 150px;
-  text-align:  center;
+  text-align: center;
   color: #008ea7
 }
-
-.home2 {
-  background-color: #6E9075; 
-  padding: 5px;
-  font-size: 20px;
-  margin: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  transition: background-color 0.3s ease; 
-  }
