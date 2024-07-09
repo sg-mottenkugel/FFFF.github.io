@@ -39,12 +39,6 @@ img {
 
 
 
-.button:hover {
-  background-color: #5572f5;
-}
-
-
-
 .navi {
   background-color: #0718af6e;
   height: 150px;
@@ -52,7 +46,7 @@ img {
   color: #008ea7
 }
 
-.home2:hover {
+.home2 {
   background-color: #bda4dd;
   color: 454242;
   padding: 10px;
