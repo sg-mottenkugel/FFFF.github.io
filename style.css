@@ -43,3 +43,8 @@ img {
   text-align: center;
   color: #008ea7
 }
+
+.fotogallerie{
+  display: flex; 
+    flex-direction: column;
+}
