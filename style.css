@@ -66,8 +66,8 @@
 
 /* Stile für Buttons */
 .button {
-  background-color: #005f6b; /* Hintergrundfarbe der Buttons */
-  color: #a6c2f7; /* Textfarbe der Buttons */
+  background-color: #4e6656; /* Hintergrundfarbe der Buttons */
+  color: #ffffff; /* Textfarbe der Buttons */
   border: none; /* Kein Rand um die Buttons */
   border-radius: 20px; /* Abgerundete Ecken der Buttons */
   text-decoration: none; /* Keine Unterstreichung für den Text der Buttons */
