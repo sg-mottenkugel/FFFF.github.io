@@ -45,6 +45,10 @@
 .fotogallerie{
   display: flex; 
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto
 }
 .übermich {
   color: #4e6656;
