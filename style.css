@@ -1,5 +1,5 @@
 /* Globale Stile für den gesamten Körper der Webseite */
-body {
+.body {
   font-family: 'Poppins', sans-serif; /* Verwenden der Poppins-Schriftart für den gesamten Text */
   background-color: #4e6656; /* Hintergrundfarbe für den gesamten Body */
   margin: 0; /* Entfernen des Standardrands */
@@ -8,7 +8,7 @@ body {
 }
 
 /* Stile für Überschriften (h1) innerhalb des Body */
-h1 {
+.h1 {
   color: #202864; /* Farbe für h1-Überschriften */
 }
 
