@@ -68,8 +68,8 @@
 .button {
   background-color: #005f6b; /* Hintergrundfarbe der Buttons */
   color: #a6c2f7; /* Textfarbe der Buttons */
-  border: 20px; /* Kein Rand um die Buttons */
-  border-radius: 5px; /* Abgerundete Ecken der Buttons */
+  border: none; /* Kein Rand um die Buttons */
+  border-radius: 20px; /* Abgerundete Ecken der Buttons */
   text-decoration: none; /* Keine Unterstreichung für den Text der Buttons */
   cursor: pointer; /* Mauszeiger wird zu einem Zeiger */
   transition: background-color 0.3s; /* Sanfter Übergang für die Hintergrundfarbe */
@@ -77,5 +77,5 @@
 
 /* Stile für den Hover-Zustand der Buttons */
 .button:hover {
-  background-color: #00404b; /* Dunklere Hintergrundfarbe im Hover-Zustand */
+  background-color: #ec1eff; /* Dunklere Hintergrundfarbe im Hover-Zustand */
 }
