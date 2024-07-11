@@ -1,59 +1,82 @@
-.body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #4e6656;
-  max-width: 100px;
-  margin: 5px;
-  padding: 5px;
-  font-size: 20px;
+/* Globale Stile für den gesamten Körper der Webseite */
+body {
+  font-family: 'Poppins', sans-serif; /* Verwenden der Poppins-Schriftart für den gesamten Text */
+  background-color: #4e6656; /* Hintergrundfarbe für den gesamten Body */
+  margin: 0; /* Entfernen des Standardrands */
+  padding: 0; /* Entfernen des Standardpaddings */
+  color: #000; /* Standardtextfarbe für den Body */
 }
 
-.h1 {
-  color: #202864;
+/* Stile für Überschriften (h1) innerhalb des Body */
+h1 {
+  color: #202864; /* Farbe für h1-Überschriften */
 }
 
+/* Stile für das Logo */
 .logo {
-  width: 200px;
+  width: 200px; /* Breite des Logos */
+  height: auto; /* Automatische Höhe beibehalten */
 }
 
+/* Stile für Bilder im Allgemeinen */
 .img {
-  max-width: 150%;
-  height: auto;
-  margin-top: auto;
-  margin: auto;
-
+  max-width: 100%; /* Maximale Breite des Bildes auf 100% des verfügbaren Platzes */
+  height: auto; /* Automatische Höhe beibehalten, um das Seitenverhältnis zu wahren */
+  margin-top: auto; /* Oben ausrichten (Auto-Margin) */
+  margin-bottom: auto; /* Unten ausrichten (Auto-Margin) */
+  margin-left: auto; /* Links ausrichten (Auto-Margin) */
+  margin-right: auto; /* Rechts ausrichten (Auto-Margin) */
 }
 
+/* Stile für den Abschnitt mit der Klasse "hi" */
 .hi {
-  position: relative;
-  right: -10px;
+  position: relative; /* Relative Positionierung */
+  right: -10px; /* Verschiebung um 10 Pixel nach rechts */
 }
 
-
-
+/* Stile für die Navigationsleiste */
 .navi {
-  background-color: #0718af6e;
-  height: 150px;
-  text-align: center;
-  color: #003512;
+  background-color: #0718af6e; /* Hintergrundfarbe der Navigationsleiste */
+  height: 150px; /* Höhe der Navigationsleiste */
+  text-align: center; /* Zentrierter Text in der Navigationsleiste */
+  color: #003512; /* Textfarbe für die Navigationsleiste */
 }
 
-.fotogallerie{
-  display: flex; 
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    max-width: 100%;
-    height: auto
+/* Stile für die Fotogalerie */
+.fotogallerie {
+  display: flex; /* Flexbox-Container */
+  flex-direction: column; /* Anordnung in Spalten */
+  align-items: center; /* Zentrieren der Elemente horizontal */
+  margin-bottom: 20px; /* Unten 20px Abstand */
+  max-width: 100%; /* Maximale Breite 100% */
+  height: auto; /* Automatische Höhe */
 }
+
+/* Stile für die Über-mich-Seite */
 .übermich {
-  color: #4e6656;
-  flex-direction: column;
+  color: #4e6656; /* Textfarbe für die Über-mich-Seite */
+  flex-direction: column; /* Anordnung in Spalten */
 }
 
+/* Stile für die Home-Seite */
 .home {
-  color: #4e6656;
+  background-color: #ffffff; /* Hintergrundfarbe für die Home-Seite (Weiß) */
+  color: #4e6656; /* Textfarbe für die Home-Seite */
 }
+
+/* Stile für Buttons */
 .button {
-  background-color: #005f6b; 
-  color: #fff; 
+  background-color: #005f6b; /* Hintergrundfarbe der Buttons */
+  color: #fff; /* Textfarbe der Buttons */
+  padding: 10px 20px; /* Innenabstand der Buttons */
+  border: none; /* Kein Rand um die Buttons */
+  border-radius: 5px; /* Abgerundete Ecken der Buttons */
+  text-decoration: none; /* Keine Unterstreichung für den Text der Buttons */
+  cursor: pointer; /* Mauszeiger wird zu einem Zeiger */
+  transition: background-color 0.3s; /* Sanfter Übergang für die Hintergrundfarbe */
+}
+
+/* Stile für den Hover-Zustand der Buttons */
+.button:hover {
+  background-color: #00404b; /* Dunklere Hintergrundfarbe im Hover-Zustand */
 }
