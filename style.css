@@ -87,3 +87,6 @@ img {
 
 /* Weitere CSS-Stile für deine Webseite */
 /* ... */
+.content-img {
+  transform: rotate(-45deg);
+}
