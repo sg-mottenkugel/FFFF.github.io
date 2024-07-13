@@ -1,14 +1,14 @@
 /* Globale Stile für den gesamten Körper der Webseite */
-.body {
-  font-family: 'Poppins', sans-serif; /* Verwenden der Poppins-Schriftart für den gesamten Text */
-  background-color:#4e6656; /* Hintergrundfarbe für den gesamten Body */
-  margin-left: 15; /* Entfernen des Standardrands */
+body {
+  font-family: 'Roboto', sans-serif; /* Verwenden der Roboto-Schriftart für den gesamten Text */
+  background-color: #4e6656; /* Hintergrundfarbe für den gesamten Body, gleich wie der Rest */
+  margin: 0; /* Entfernen des Standardmargins */
   padding: 0; /* Entfernen des Standardpaddings */
   color: #f5f3f3; /* Standardtextfarbe für den Body */
 }
 
-
-.h1 {
+/* Stile für h1-Überschriften */
+h1 {
   color: #001eff; /* Farbe für h1-Überschriften */
 }
 
@@ -19,13 +19,11 @@
 }
 
 /* Stile für Bilder im Allgemeinen */
-.img {
+img {
   max-width: 100%; /* Maximale Breite des Bildes auf 100% des verfügbaren Platzes */
   height: auto; /* Automatische Höhe beibehalten, um das Seitenverhältnis zu wahren */
-  margin-top: auto; /* Oben ausrichten (Auto-Margin) */
-  margin-bottom: auto; /* Unten ausrichten (Auto-Margin) */
-  margin-left: auto; /* Links ausrichten (Auto-Margin) */
-  margin-right: auto; /* Rechts ausrichten (Auto-Margin) */
+  display: block; /* Block-Level-Element, um Margin-Automatisierung zu ermöglichen */
+  margin: auto; /* Zentrieren des Bildes */
 }
 
 /* Stile für den Abschnitt mit der Klasse "hi" */
@@ -40,6 +38,9 @@
   height: 150px; /* Höhe der Navigationsleiste */
   text-align: center; /* Zentrierter Text in der Navigationsleiste */
   color: #003512; /* Textfarbe für die Navigationsleiste */
+  display: flex; /* Flexbox-Layout */
+  justify-content: center; /* Zentrieren der Kinder-Elemente horizontal */
+  align-items: center; /* Zentrieren der Kinder-Elemente vertikal */
 }
 
 /* Stile für die Fotogalerie */
@@ -50,12 +51,12 @@
   margin-bottom: 20px; /* Unten 20px Abstand */
   max-width: 100%; /* Maximale Breite 100% */
   height: auto; /* Automatische Höhe */
-  align-items: center;
 }
 
 /* Stile für die Über-mich-Seite */
 .übermich {
   color: #4e6656; /* Textfarbe für die Über-mich-Seite */
+  display: flex; /* Flexbox-Layout */
   flex-direction: column; /* Anordnung in Spalten */
 }
 
@@ -65,7 +66,7 @@
   color: #4e6656; /* Textfarbe für die Home-Seite */
 }
 
-
+/* Stile für Buttons */
 .button {
   background-color: #6fbe8a; /* Hintergrundfarbe der Buttons */
   color: #ffffff; /* Textfarbe der Buttons */
@@ -80,3 +81,9 @@
 .button:hover {
   background-color: #71aaff; /* Dunklere Hintergrundfarbe im Hover-Zustand */
 }
+
+/* Google Fonts Einbindung für Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Weitere CSS-Stile für deine Webseite */
+/* ... */
