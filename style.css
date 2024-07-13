@@ -1,7 +1,7 @@
 /* Globale Stile für den gesamten Körper der Webseite */
 .body {
   font-family: 'Poppins', sans-serif; /* Verwenden der Poppins-Schriftart für den gesamten Text */
-  background-color: #1f5327; /* Hintergrundfarbe für den gesamten Body */
+  background-color:#4e6656; /* Hintergrundfarbe für den gesamten Body */
   margin: 0; /* Entfernen des Standardrands */
   padding: 0; /* Entfernen des Standardpaddings */
   color: #f5f3f3; /* Standardtextfarbe für den Body */
