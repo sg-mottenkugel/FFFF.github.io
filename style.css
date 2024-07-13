@@ -50,6 +50,7 @@
   margin-bottom: 20px; /* Unten 20px Abstand */
   max-width: 100%; /* Maximale Breite 100% */
   height: auto; /* Automatische Höhe */
+  align-items: center;
 }
 
 /* Stile für die Über-mich-Seite */
