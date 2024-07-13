@@ -7,9 +7,9 @@
   color: #f5f3f3; /* Standardtextfarbe für den Body */
 }
 
-/* Stile für Überschriften (h1) innerhalb des Body */
+
 .h1 {
-  color: #202864; /* Farbe für h1-Überschriften */
+  color: #001eff; /* Farbe für h1-Überschriften */
 }
 
 /* Stile für das Logo */
@@ -64,7 +64,7 @@
   color: #4e6656; /* Textfarbe für die Home-Seite */
 }
 
-/* Stile für Buttons */
+
 .button {
   background-color: #6fbe8a; /* Hintergrundfarbe der Buttons */
   color: #ffffff; /* Textfarbe der Buttons */
