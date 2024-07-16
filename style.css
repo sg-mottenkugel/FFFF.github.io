@@ -1,84 +1,45 @@
-.body {
+body {
   background-color: #4e6656;
-  margin: 0;
+  color: white;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-/* Stile für h1-Überschriften */
-.h1 {
-  color: #001eff; /* Farbe für h1-Überschriften */
+header {
+  background-color: #333;
+  padding: 20px;
 }
 
-/* Stile für das Logo */
-.logo {
-  width: 200px; /* Breite des Logos */
-  height: auto; /* Automatische Höhe beibehalten */
+h1 {
+  margin: 0;
 }
 
-/* Stile für Bilder im Allgemeinen */
-.img {
-  max-width: 100%; /* Maximale Breite des Bildes auf 100% des verfügbaren Platzes */
-  height: auto; /* Automatische Höhe beibehalten, um das Seitenverhältnis zu wahren */
-  display: block; /* Block-Level-Element, um Margin-Automatisierung zu ermöglichen */
-  margin: auto; /* Zentrieren des Bildes */
+button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-/* Stile für den Abschnitt mit der Klasse "hi" */
-.hi {
-  position: relative; /* Relative Positionierung */
-  right: -10px; /* Verschiebung um 10 Pixel nach rechts */
+button:hover {
+  background-color: #777;
 }
 
-/* Stile für die Navigationsleiste */
-.navi {
-  background-color: #0718af6e; /* Hintergrundfarbe der Navigationsleiste */
-  height: 150px; /* Höhe der Navigationsleiste */
-  text-align: center; /* Zentrierter Text in der Navigationsleiste */
-  color: #003512; /* Textfarbe für die Navigationsleiste */
-  display: flex; /* Flexbox-Layout */
-  justify-content: center; /* Zentrieren der Kinder-Elemente horizontal */
-  align-items: center; /* Zentrieren der Kinder-Elemente vertikal */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 
-/* Stile für die Fotogalerie */
-.fotogallerie {
-  display: flex; /* Flexbox-Container */
-  flex-direction: column; /* Anordnung in Spalten */
-  align-items: center; /* Zentrieren der Elemente horizontal */
-  margin-bottom: 20px; /* Unten 20px Abstand */
-  max-width: 100%; /* Maximale Breite 100% */
-  height: auto; /* Automatische Höhe */
-}
-
-/* Stile für die Über-mich-Seite */
-.übermich {
-  color: #4e6656; /* Textfarbe für die Über-mich-Seite */
-  display: flex; /* Flexbox-Layout */
-  flex-direction: column; /* Anordnung in Spalten */
-}
-
-/* Stile für die Home-Seite */
-.home {
-  background-color: #ffffff; /* Hintergrundfarbe für die Home-Seite (Weiß) */
-  color: #4e6656; /* Textfarbe für die Home-Seite */
-}
-
-/* Stile für Buttons */
-.button {
-  background-color: #6fbe8a; /* Hintergrundfarbe der Buttons */
-  color: #ffffff; /* Textfarbe der Buttons */
-  border: none; /* Kein Rand um die Buttons */
-  border-radius: 20px; /* Abgerundete Ecken der Buttons */
-  text-decoration: none; /* Keine Unterstreichung für den Text der Buttons */
-  cursor: pointer; /* Mauszeiger wird zu einem Zeiger */
-  transition: background-color 0.3s; /* Sanfter Übergang für die Hintergrundfarbe */
-}
-
-/* Stile für den Hover-Zustand der Buttons */
-.button:hover {
-  background-color: #7173ff; /* Dunklere Hintergrundfarbe im Hover-Zustand */
-}
-
-.content-img {
-  transform: rotate(-45deg);
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 5px solid white;
+  border-radius: 10px;
 }
