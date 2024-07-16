@@ -16,6 +16,10 @@
   margin: 0;
 }
 
+.logo {
+width: 150px;
+}
+
 .button {
   background-color: #555;
   color: white;
