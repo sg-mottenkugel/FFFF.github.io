@@ -1,14 +1,11 @@
-/* Globale Stile für den gesamten Körper der Webseite */
-body {
-  font-family: 'Roboto', sans-serif; /* Verwenden der Roboto-Schriftart für den gesamten Text */
-  background-color: #4e6656; /* Hintergrundfarbe für den gesamten Body, gleich wie der Rest */
-  margin: 0; /* Entfernen des Standardmargins */
-  padding: 0; /* Entfernen des Standardpaddings */
-  color: #f5f3f3; /* Standardtextfarbe für den Body */
+.body {
+  background-color: #4e6656;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Stile für h1-Überschriften */
-h1 {
+.h1 {
   color: #001eff; /* Farbe für h1-Überschriften */
 }
 
@@ -19,7 +16,7 @@ h1 {
 }
 
 /* Stile für Bilder im Allgemeinen */
-img {
+.img {
   max-width: 100%; /* Maximale Breite des Bildes auf 100% des verfügbaren Platzes */
   height: auto; /* Automatische Höhe beibehalten, um das Seitenverhältnis zu wahren */
   display: block; /* Block-Level-Element, um Margin-Automatisierung zu ermöglichen */
@@ -79,14 +76,9 @@ img {
 
 /* Stile für den Hover-Zustand der Buttons */
 .button:hover {
-  background-color: #71aaff; /* Dunklere Hintergrundfarbe im Hover-Zustand */
+  background-color: #7173ff; /* Dunklere Hintergrundfarbe im Hover-Zustand */
 }
 
-/* Google Fonts Einbindung für Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-/* Weitere CSS-Stile für deine Webseite */
-/* ... */
 .content-img {
   transform: rotate(-45deg);
 }
