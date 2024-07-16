@@ -1,4 +1,4 @@
-body {
+.body {
   background-color: #4e6656;
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -7,16 +7,16 @@ body {
   padding: 0;
 }
 
-header {
+.header {
   background-color: #333;
   padding: 20px;
 }
 
-h1 {
+.h1 {
   margin: 0;
 }
 
-button {
+.button {
   background-color: #555;
   color: white;
   border: none;
@@ -26,7 +26,7 @@ button {
   font-size: 16px;
 }
 
-button:hover {
+.button:hover {
   background-color: #777;
 }
 
@@ -37,7 +37,7 @@ button:hover {
   height: 80vh;
 }
 
-img {
+.img {
   max-width: 100%;
   max-height: 100%;
   border: 5px solid white;
